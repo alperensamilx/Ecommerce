@@ -34,4 +34,3 @@ def get_product(request, pk):
 
     return Response(serializer.data)
 
-#
