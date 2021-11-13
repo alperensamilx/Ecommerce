@@ -17,7 +17,7 @@ def get_routes(request):
         '/api/products'
     ]
     return Response(routes)
-
+#
 
 @api_view(['GET'])
 def get_products(request):
