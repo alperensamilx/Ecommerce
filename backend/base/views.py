@@ -34,6 +34,7 @@ class MyTokenObtainPairView(TokenObtainPairView):
 
 @api_view(['POST'])
 def registerUser(request):
+    data = request.data
     return Response('Data')
 
 
