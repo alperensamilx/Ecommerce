@@ -32,12 +32,9 @@ class MyTokenObtainPairView(TokenObtainPairView):
     serializer_class = MyTokenObtainPairSerializer
 
 
-@api_view(['GET'])
-def get_routes(request):
-    routes = [
-        '/api/products'
-    ]
-    return Response(routes)
+@api_view(['POST'])
+def registerUser(request):
+    return Response('Data')
 
 
 @api_view(['GET'])
