@@ -6,10 +6,8 @@ from rest_framework.response import Response
 
 
 from base.models import Product
-from base.products import products
 from base.serializers import ProductSerializer
 
-from django.contrib.auth.hashers import make_password
 from rest_framework import status
 
 
